@@ -116,6 +116,10 @@ const About = () => {
                 <Facebook className="h-4 w-4" />
                 <span>Facebook</span>
               </a>
+              <a href="https://github.com/ThongNguyen1510" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
+                <Github className="h-4 w-4" />
+                <span>GitHub</span>
+              </a>
             </div>
             <div className="mt-6">
               <a href="/CV_Nguyen_Luong_Minh_Thong.pdf" download>
