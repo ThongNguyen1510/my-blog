@@ -1,5 +1,6 @@
 import { Code2, Database, Globe, Terminal, GraduationCap, Briefcase, Heart, MapPin, Mail, Phone, Linkedin, Github, Cloud, GitBranch, Container, Server, Award } from "lucide-react";
 import Layout from "@/components/Layout";
+import profileImage from "@/assets/profile.jpg";
 
 const About = () => {
   const skills = [
@@ -84,8 +85,8 @@ const About = () => {
         <div className="container mx-auto max-w-4xl">
           {/* Header */}
           <div className="text-center mb-12 opacity-0 animate-fade-in">
-            <div className="inline-flex items-center justify-center w-32 h-32 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30 mb-6 hover-glow transition-all">
-              <span className="font-mono text-4xl font-bold text-primary">MT</span>
+            <div className="inline-flex items-center justify-center w-32 h-32 rounded-full overflow-hidden border-2 border-primary/30 mb-6 hover-glow transition-all">
+              <img src={profileImage} alt="Nguyễn Lương Minh Thông" className="w-full h-full object-cover" />
             </div>
             <h1 className="font-mono text-4xl md:text-5xl font-bold mb-4">
               Nguyễn Lương <span className="text-gradient">Minh Thông</span>
