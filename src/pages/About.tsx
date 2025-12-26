@@ -112,7 +112,7 @@ const About = () => {
                 <Linkedin className="h-4 w-4" />
                 <span>LinkedIn</span>
               </a>
-              <a href="https://www.facebook.com/ThongNguyen1510" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <a href="https://www.facebook.com/minhthong.nguyenluong" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Facebook className="h-4 w-4" />
                 <span>Facebook</span>
               </a>
