@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, BookOpen, Code2 } from "lucide-react";
+import { ArrowRight, BookOpen, User } from "lucide-react";
 import Layout from "@/components/Layout";
 import ProfileSection from "@/components/ProfileSection";
 import PostCard from "@/components/PostCard";
@@ -41,8 +41,35 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
+      {/* About Preview */}
       <section className="py-16 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="bg-card rounded-xl p-8 border border-border opacity-0 animate-fade-in">
+            <div className="flex flex-col md:flex-row items-center gap-6">
+              <div className="flex-shrink-0">
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30 flex items-center justify-center">
+                  <User className="h-10 w-10 text-primary" />
+                </div>
+              </div>
+              <div className="flex-1 text-center md:text-left">
+                <h3 className="font-mono text-xl font-semibold mb-2">Tìm hiểu thêm về tôi</h3>
+                <p className="text-muted-foreground mb-4">
+                  Khám phá hành trình học tập, kỹ năng và những dự án mà tôi đã thực hiện.
+                </p>
+                <Link to="/about">
+                  <Button variant="outline" className="group">
+                    Xem trang About
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="py-16 px-4 bg-muted/20">
         <div className="container mx-auto max-w-4xl">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
