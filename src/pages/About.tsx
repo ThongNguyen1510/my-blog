@@ -1,6 +1,7 @@
-import { Code2, Database, Globe, Terminal, GraduationCap, Briefcase, Heart, MapPin, Mail, Phone, Linkedin, Github, Cloud, GitBranch, Container, Server, Award } from "lucide-react";
+import { Code2, Database, Globe, Terminal, GraduationCap, Briefcase, Heart, MapPin, Mail, Phone, Linkedin, Github, Cloud, GitBranch, Container, Server, Award, Download } from "lucide-react";
 import Layout from "@/components/Layout";
 import profileImage from "@/assets/profile.jpg";
+import { Button } from "@/components/ui/button";
 
 const About = () => {
   const skills = [
@@ -110,6 +111,14 @@ const About = () => {
               <a href="https://www.linkedin.com/in/thongnguyen1510/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
                 <Linkedin className="h-4 w-4" />
                 <span>LinkedIn</span>
+              </a>
+            </div>
+            <div className="mt-6">
+              <a href="/CV_Nguyen_Luong_Minh_Thong.pdf" download>
+                <Button className="gap-2">
+                  <Download className="h-4 w-4" />
+                  Tải CV (PDF)
+                </Button>
               </a>
             </div>
           </div>
