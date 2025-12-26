@@ -1,25 +1,26 @@
-import { Code2, Database, Globe, Terminal } from "lucide-react";
+import { Terminal, GitBranch, Container, Cloud } from "lucide-react";
+import profileImage from "@/assets/profile.jpg";
 
 const ProfileSection = () => {
   const skills = [
-    { icon: Code2, label: "Java", color: "text-java" },
-    { icon: Terminal, label: "JavaScript", color: "text-javascript" },
-    { icon: Database, label: "SQL", color: "text-primary" },
-    { icon: Globe, label: "Networking", color: "text-accent" },
+    { icon: Terminal, label: "Linux & Bash", color: "text-primary" },
+    { icon: GitBranch, label: "Git & CI/CD", color: "text-accent" },
+    { icon: Container, label: "Docker", color: "text-primary" },
+    { icon: Cloud, label: "Cloud (AWS/Azure)", color: "text-accent" },
   ];
 
   return (
     <section className="py-20 px-4">
       <div className="container mx-auto max-w-4xl">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 border-2 border-primary/30 mb-6">
-            <span className="font-mono text-3xl font-bold text-primary">NV</span>
+          <div className="inline-flex items-center justify-center w-24 h-24 rounded-full overflow-hidden border-2 border-primary/30 mb-6 hover-glow transition-all">
+            <img src={profileImage} alt="Nguyễn Lương Minh Thông" className="w-full h-full object-cover" />
           </div>
           <h1 className="font-mono text-4xl md:text-5xl font-bold mb-4">
-            Nguyễn Văn <span className="text-gradient">Dev</span>
+            Nguyễn Lương <span className="text-gradient">Minh Thông</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Sinh viên Công nghệ thông tin | Đam mê lập trình mạng & phát triển ứng dụng
+            DevOps Intern | Đam mê Cloud Computing & CI/CD Pipeline
           </p>
         </div>
 
@@ -42,14 +43,13 @@ const ProfileSection = () => {
           </h2>
           <div className="space-y-4 text-muted-foreground leading-relaxed">
             <p>
-              Xin chào! Tôi là một sinh viên đam mê công nghệ, đặc biệt là lập trình mạng 
-              và phát triển ứng dụng. Blog này là nơi tôi chia sẻ những kiến thức đã học 
-              được từ các khóa học về Java và JavaScript.
+              Xin chào! Tôi là sinh viên năm cuối ngành Công nghệ thông tin tại HUTECH với nền tảng 
+              vững chắc về Linux, Networking và kinh nghiệm thực hành với Docker, Kubernetes.
             </p>
             <p>
-              Với mục tiêu trở thành một lập trình viên chuyên nghiệp, tôi không ngừng 
-              học hỏi và thực hành. Hy vọng những bài viết của tôi sẽ giúp ích cho các 
-              bạn đang trên con đường học lập trình.
+              Tôi đang tìm kiếm cơ hội thực tập DevOps để áp dụng kiến thức trong môi trường CI/CD 
+              chuyên nghiệp. Blog này là nơi tôi chia sẻ những kiến thức về lập trình Java, JavaScript 
+              và các bài học từ hành trình học tập của mình.
             </p>
           </div>
         </div>
