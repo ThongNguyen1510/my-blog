@@ -27,7 +27,7 @@ const About = () => {
       title: "Ho Chi Minh City University of Technology (HUTECH)",
       organization: "Ngành: Công nghệ Thông tin",
       period: "2022 - Hiện tại",
-      description: "GPA: 2.84/4 - Sinh viên năm cuối với nền tảng vững chắc về Linux, Networking và kinh nghiệm thực hành với Docker, Kubernetes."
+      description: "Sinh viên năm cuối với nền tảng vững chắc về Linux, Networking và kinh nghiệm thực hành với Docker, Kubernetes."
     },
     {
       title: "DXC Technology Company Tour",
@@ -40,6 +40,12 @@ const About = () => {
       organization: "HUTECH University",
       period: "Tháng 3/2025",
       description: "Học về software testing practices và cơ hội nghề nghiệp trong lĩnh vực QA."
+    },
+    {
+      title: "IT Career Orientation Seminar 2024",
+      organization: "HUTECH University",
+      period: "Tháng 12/2024",
+      description: "Khám phá các hướng nghề nghiệp trong IT và các kỹ năng cần thiết cho DevOps engineer."
     },
     {
       title: "Tình nguyện viên - Chương trình 'Về Ước Mơ'",
