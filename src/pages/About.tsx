@@ -131,7 +131,7 @@ const About = () => {
                 <span>GitHub</span>
               </a>
             </div>
-            <div className="mt-6 flex gap-3">
+            <div className="mt-6 flex gap-3 justify-center">
               <a href="/CV_Nguyen_Luong_Minh_Thong.pdf" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="gap-2">
                   <Eye className="h-4 w-4" />
