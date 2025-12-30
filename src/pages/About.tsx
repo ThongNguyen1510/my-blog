@@ -22,6 +22,8 @@ const About = () => {
     { name: "Networking Basics", org: "Cisco", year: "2025", link: "https://www.credly.com/org/cisco/badge/networking-basics" },
     { name: "Introduction to Cloud Computing", org: "IBM (Coursera)", year: "2025", link: "https://coursera.org/verify/YOP8CPFMWXTL" },
     { name: "Introduction to Docker", org: "Google Cloud (Coursera)", year: "2025", link: "https://coursera.org/verify/ZE8X176FJMV8" },
+    { name: "JavaScript Essentials 1", org: "Cisco Networking Academy", year: "2025" },
+    { name: "JavaScript Essentials 2", org: "Cisco Networking Academy", year: "2025" },
   ];
 
   const experiences = [
