@@ -13,6 +13,7 @@ const About = () => {
     { icon: Code2, label: "Python & Shell Automation", level: 75 },
     { icon: Server, label: "CI/CD Pipeline", level: 80 },
     { icon: Database, label: "SDLC & DevOps", level: 70 },
+    { icon: Code2, label: "JavaScript", level: 75 },
   ];
 
   const certifications = [
