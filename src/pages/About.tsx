@@ -19,7 +19,8 @@ const About = () => {
     { name: "Introduction to Cybersecurity", org: "Cisco", year: "2024" },
     { name: "Introduction to DevOps", org: "Coursera", year: "2025" },
     { name: "Networking Basics", org: "Cisco", year: "2025" },
-    { name: "Introduction to Cloud Computing", org: "Coursera", year: "2025" },
+    { name: "Introduction to Cloud Computing", org: "IBM (Coursera)", year: "2025", link: "https://coursera.org/verify/YOP8CPFMWXTL" },
+    { name: "Introduction to Docker", org: "Google Cloud (Coursera)", year: "2025", link: "https://coursera.org/verify/ZE8X176FJMV8" },
   ];
 
   const experiences = [
@@ -216,6 +217,17 @@ const About = () => {
                 >
                   <h3 className="font-semibold text-sm">{cert.name}</h3>
                   <p className="text-xs text-muted-foreground mt-1">{cert.org} • {cert.year}</p>
+                  {cert.link && (
+                    <a 
+                      href={cert.link} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs text-primary hover:underline mt-2"
+                    >
+                      <Award className="h-3 w-3" />
+                      Xác minh chứng chỉ
+                    </a>
+                  )}
                 </div>
               ))}
             </div>
