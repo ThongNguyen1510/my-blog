@@ -17,7 +17,7 @@ const About = () => {
 
   const certifications = [
     { name: "Introduction to Cybersecurity", org: "Cisco", year: "2024", link: "https://www.credly.com/org/cisco/badge/introduction-to-cybersecurity" },
-    { name: "Introduction to DevOps", org: "Coursera", year: "2025" },
+    { name: "DevOps Essentials", org: "IBM (Coursera)", year: "2025", link: "https://www.credly.com/badges/fa6cedf7-ba5c-42f6-93ae-00338a4508d6" },
     { name: "Networking Basics", org: "Cisco", year: "2025", link: "https://www.credly.com/org/cisco/badge/networking-basics" },
     { name: "Introduction to Cloud Computing", org: "IBM (Coursera)", year: "2025", link: "https://coursera.org/verify/YOP8CPFMWXTL" },
     { name: "Introduction to Docker", org: "Google Cloud (Coursera)", year: "2025", link: "https://coursera.org/verify/ZE8X176FJMV8" },
