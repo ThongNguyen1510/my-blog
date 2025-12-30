@@ -1,4 +1,4 @@
-import { Code2, Database, Globe, Terminal, GraduationCap, Briefcase, Heart, MapPin, Mail, Phone, Linkedin, Github, Cloud, GitBranch, Container, Server, Award, Download, Facebook } from "lucide-react";
+import { Code2, Database, Globe, Terminal, GraduationCap, Briefcase, Heart, MapPin, Mail, Phone, Linkedin, Github, Cloud, GitBranch, Container, Server, Award, Download, Facebook, Eye } from "lucide-react";
 import Layout from "@/components/Layout";
 import profileImage from "@/assets/profile.jpg";
 import { Button } from "@/components/ui/button";
@@ -131,7 +131,13 @@ const About = () => {
                 <span>GitHub</span>
               </a>
             </div>
-            <div className="mt-6">
+            <div className="mt-6 flex gap-3">
+              <a href="/CV_Nguyen_Luong_Minh_Thong.pdf" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline" className="gap-2">
+                  <Eye className="h-4 w-4" />
+                  Xem CV
+                </Button>
+              </a>
               <a href="/CV_Nguyen_Luong_Minh_Thong.pdf" download>
                 <Button className="gap-2">
                   <Download className="h-4 w-4" />
